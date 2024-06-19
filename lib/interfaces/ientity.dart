@@ -1,3 +1,3 @@
-public interface IEntity {
-  long id;
+abstract class IEntity {
+  late BigInt id;
 }

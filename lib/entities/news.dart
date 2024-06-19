@@ -1,12 +1,13 @@
-import 'package:flutter/material.dart';
+import 'package:senac_news_mobile/interfaces/ientity.dart';
 
-class News {
-  final int id;
-  final String title;
-  final String subTitle;
-  final String imageUrl;
-  final String body;
-  final DateTime publicationDate;
+class News implements IEntity {
+  @override
+  BigInt id;
+  String title;
+  String subTitle;
+  String imageUrl;
+  String body;
+  DateTime publicationDate;
 
   News({
     required this.id,
