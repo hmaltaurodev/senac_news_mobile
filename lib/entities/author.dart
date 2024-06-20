@@ -1,8 +1,7 @@
-//LATE - Modificador de variáveis
+import 'package:senac_news_mobile/interfaces/ientity.dart';
 
-
-/* CLASSE AUTHOR */
-class Author {
+class Author implements IEntity {
+  @override
   BigInt id;
   String name;
   String email;
