@@ -18,3 +18,4 @@ class News implements IEntity {
     required this.publicationDate,
   });
 }
+

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:senac_news_mobile/ui/pages/category_page.dart';
 
 void main() {
   runApp(const MaterialApp(
-    debugShowCheckedModeBanner: false,
-    title: 'Senac News Mobile',
+      title: 'Tela de Cadastro',
+      home: CategoryPage(),
+      debugShowCheckedModeBanner: false
   ));
 }
