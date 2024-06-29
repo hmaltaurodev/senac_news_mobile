@@ -9,9 +9,6 @@ class CategoryPage extends StatefulWidget {
 
   @override
   State<CategoryPage> createState() => _CategoryState();
-  //ElevateButton - Botão
-  //InputBorder - campo de texto
-  //SatrBorder - logo central
   }
   class _CategoryState extends State<CategoryPage> {
   final TextEditingController _nomecontroller = TextEditingController();
